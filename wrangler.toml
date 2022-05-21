@@ -1,6 +1,6 @@
 name = "my-project"
 type = "webpack"
-account_id = ""
+account_id = "3e0eb5a25f1cd972f9c25271b1df1487"
 workers_dev = true
 route = ""
 zone_id = ""
