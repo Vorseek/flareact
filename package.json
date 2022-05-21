@@ -11,6 +11,8 @@
     "deploy": "flareact publish"
   },
   "dependencies": {
+    "@prismicio/client": "^6.4.3",
+    "@prismicio/react": "^2.3.0",
     "flareact": "^1.2.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
