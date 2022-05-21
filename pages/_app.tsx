@@ -1,7 +1,7 @@
 import { PrismicProvider } from "@prismicio/react";
 import { client } from "../prismic";
 
-export default function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   // Your custom stuff here
 
   return (
@@ -10,3 +10,5 @@ export default function MyApp({ Component, pageProps }) {
     </PrismicProvider>
   );
 }
+
+export default MyApp;
