@@ -32,11 +32,11 @@ export async function getEdgeProps() {
     }, 3000);
   })
 
-  const text = "getEdgeProps, text " + minutes;
+  const text = "getEdgeProps, minutes " + minutes;
 
   // TODO: not working axios in getEdgeProps
-  // const image = await axios.get(
-  //   'https://images.pexels.com/photos/11254131/pexels-photo-11254131.jpeg?cs=srgb&dl=pexels-summer-rune-11254131.jpg&fm=jpg&w=900&h=800'
+  // const todos = await axios.get(
+  //   'https://jsonplaceholder.typicode.com/todos/1'
   // );
 
   const content = await client.getByUID("main_page", "main_page");
